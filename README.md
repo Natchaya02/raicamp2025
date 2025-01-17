@@ -1,7 +1,11 @@
 # raicamp2025
-# Assignment 4
-animals = ["cat", "dog", "rabbit", "bird", "fish"]  # Create a list of animals
+# Assignment 5
+numbers = [1, 2, 4, 5, 6]  # Create a list of numbers
 
-# Remove "rabbit" from the list
-animals.remove("rabbit")
-print("Animals after removal:", animals)
+# Insert 3 between 2 and 4
+numbers.insert(2, 3)
+print("Numbers after inserting 3:", numbers)
+
+# Insert 0 at the beginning of the list
+numbers.insert(0, 0)
+print("Final list of numbers:", numbers)
