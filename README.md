@@ -1,12 +1,15 @@
 # raicamp2025
-# Assignment 1
-age = 25  # Integer
-height = 5.9  # Float
-name = "Your Name"  # String (Replace "Your Name" with your actual name)
-is_student = True  # Boolean
+# Assignment 2
+sentence = "Python programming is fun."
 
-# Print all variables
-print("Age:", age)
-print("Height:", height)
-print("Name:", name)
-print("Is Student:", is_student)
+# Convert the string to uppercase
+uppercase_sentence = sentence.upper()
+print("Uppercase:", uppercase_sentence)
+
+# Replace "fun" with "awesome"
+new_sentence = sentence.replace("fun", "awesome")
+print("Replaced Sentence:", new_sentence)
+
+# Split the sentence into a list of words
+words_list = sentence.split()
+print("Words List:", words_list)
