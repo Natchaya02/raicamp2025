@@ -1,15 +1,14 @@
 # raicamp2025
-# Assignment 2
-sentence = "Python programming is fun."
+# Assignment 3
+colors = []  # Create an empty list
 
-# Convert the string to uppercase
-uppercase_sentence = sentence.upper()
-print("Uppercase:", uppercase_sentence)
+# Add "red", "green", and "blue" to the list
+colors.append("red")
+colors.append("green")
+colors.append("blue")
+print("Colors after first append:", colors)
 
-# Replace "fun" with "awesome"
-new_sentence = sentence.replace("fun", "awesome")
-print("Replaced Sentence:", new_sentence)
-
-# Split the sentence into a list of words
-words_list = sentence.split()
-print("Words List:", words_list)
+# Add "yellow" and "purple" to the list
+colors.append("yellow")
+colors.append("purple")
+print("Colors after second append:", colors)
